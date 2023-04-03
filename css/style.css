@@ -22,4 +22,73 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.welcome {
+  margin: 10rem 0;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+.welcome__image {
+  flex-basis: 40rem;
+  width: 40rem;
+  border-radius: 1rem;
+}
+.welcome__text-box {
+  padding: 1rem 0;
+}
+.welcome__text-box__text {
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: var(--grey-normal);
+  margin-bottom: auto;
+}
+
+.heading-primary {
+  font-size: 4.8rem;
+  color: var(--grey-light);
+}
+
+.header {
+  background-color: var(--primary-color);
+  padding: 3rem 20rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+}
+.navbar__logo {
+  width: 4rem;
+  height: 4rem;
+}
+.navbar__list {
+  font-size: 1.6rem;
+  display: flex;
+  border: 1px solid yellow;
+}
+.navbar__item {
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--grey-normal);
+  margin-left: 10%;
+}
+
+.random-info {
+  height: 100px;
+  overflow: hidden;
+}
+
+.btn {
+  padding: 1rem;
+  background-color: var(--secondary-color);
+  color: var(--grey-light);
+  font-size: 2rem;
+  font-weight: 700;
+  border-radius: 10%;
+  display: block;
+  width: 100px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,54 @@
+@use "base" as base; 
+
+/// HEADER
+.header {
+    background-color: var(--primary-color);
+    padding: 3rem 20rem;
+}
+
+/// NAVBAR
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+
+    &__logo {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    &__list {
+        font-size: 1.6rem;
+        display: flex;
+        border: 1px solid yellow;
+    }
+
+    &__item {
+        font-weight: 700;
+        text-decoration: none;
+        color: var(--grey-normal);
+        margin-left: 10%;
+    }
+}
+
+/// NAVBAR
+
+
+// RANDOM INFO
+.random-info {
+    height: 100px;
+    overflow: hidden;
+}
+
+// BTN
+.btn {
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    color: var(--grey-light);
+    font-size: 2rem;
+    font-weight: 700;
+    border-radius: 10%;
+    display: block;
+    width: 100px;
+}

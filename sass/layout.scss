@@ -1,0 +1,31 @@
+@use "base" as base; 
+
+/// WELCOME
+.welcome {
+    margin: 10rem 0;
+    display: flex;
+    justify-content: space-between;
+
+    &__image {
+        flex-basis: 40rem;
+        width: 40rem;
+        border-radius: 1rem;
+    }
+
+    &__text-box {
+        padding: 1rem 0;
+
+        &__text {
+            font-weight: 500;
+            font-size: 1.8rem;
+            color: var(--grey-normal);
+            margin-bottom: auto;
+        }
+    }
+    border: 1px solid red;
+}
+
+.heading-primary {
+    font-size: 4.8rem;
+    color: var(--grey-light);
+}
