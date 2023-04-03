@@ -1,5 +1,11 @@
 @use "base" as base; 
 
+/// HEADER
+.header {
+    background-color: var(--primary-color);
+    padding: 3rem 20rem;
+}
+
 /// NAVBAR
 .navbar {
     display: flex;
@@ -24,6 +30,14 @@
     }
 }
 
+/// NAVBAR
+
+
+// RANDOM INFO
+.random-info {
+    height: 100px;
+}
+
 // BTN
 .btn {
     padding: 0.8rem 2.7rem;
@@ -35,3 +49,8 @@
     border: none;
 }
 
+
+// QUOTES SECTION
+.quotes {
+    background-color: var(--grey-normal);
+}

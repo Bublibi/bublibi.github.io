@@ -22,20 +22,15 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.header {
-  background-color: var(--primary-color);
-  padding: 3rem 20rem;
-}
-
 .welcome {
   margin: 10rem 0;
   display: flex;
   justify-content: space-between;
 }
 .welcome__image {
-  flex-basis: 40rem;
   width: 40rem;
   border-radius: 1rem;
+  flex: 1 1 0;
 }
 .welcome__text-box {
   padding: 1rem 0;
@@ -86,9 +81,14 @@ body {
   color: rgb(82, 82, 85);
 }
 .random-info img {
-  width: 180px;
-  height: 180px;
+  width: 18rem;
+  height: 18rem;
   border-radius: 1rem;
+}
+
+.header {
+  background-color: var(--primary-color);
+  padding: 3rem 20rem;
 }
 
 .navbar {
@@ -111,6 +111,10 @@ body {
   color: var(--grey-normal);
 }
 
+.random-info {
+  height: 100px;
+}
+
 .btn {
   padding: 0.8rem 2.7rem;
   background-color: var(--secondary-color);
@@ -119,6 +123,10 @@ body {
   font-weight: 700;
   border-radius: 1rem;
   border: none;
+}
+
+.quotes {
+  background-color: var(--grey-normal);
 }
 
 /*# sourceMappingURL=style.css.map */

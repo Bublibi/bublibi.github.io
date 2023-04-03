@@ -1,13 +1,5 @@
 @use "base" as base; 
 
-
-/// HEADER
-.header {
-    background-color: var(--primary-color);
-    padding: 3rem 20rem;
-}
-
-
 /// WELCOME
 .welcome {
     margin: 10rem 0;
@@ -15,9 +7,9 @@
     justify-content: space-between;
 
     &__image {
-        flex-basis: 40rem;
         width: 40rem;
         border-radius: 1rem;
+        flex: 1 1 0;
     }
 
     &__text-box {
@@ -77,9 +69,8 @@
     }
 
     & img {
-        width: 180px;
-        height: 180px;
+        width: 18rem;
+        height: 18rem;
         border-radius: 1rem;
     }
-
 }
