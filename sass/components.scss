@@ -10,8 +10,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    border: 1px solid red;
+    align-items: center;    
 
     &__logo {
         width: 4rem;
@@ -21,14 +20,13 @@
     &__list {
         font-size: 1.6rem;
         display: flex;
-        border: 1px solid yellow;
+        gap: 2.2rem;
     }
 
     &__item {
         font-weight: 700;
         text-decoration: none;
         color: var(--grey-normal);
-        margin-left: 10%;
     }
 }
 
@@ -49,6 +47,5 @@
     font-size: 2rem;
     font-weight: 700;
     border-radius: 10%;
-    display: block;
     width: 100px;
 }

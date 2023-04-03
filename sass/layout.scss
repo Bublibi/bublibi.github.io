@@ -14,15 +14,21 @@
 
     &__text-box {
         padding: 1rem 0;
+        position: relative;
 
         &__text {
             font-weight: 500;
             font-size: 1.8rem;
             color: var(--grey-normal);
-            margin-bottom: auto;
+            margin: 1.5rem 0;
+            padding-right: 14rem;
+        }
+
+        & .btn {
+            position: absolute;
+            bottom: 1rem;
         }
     }
-    border: 1px solid red;
 }
 
 .heading-primary {

@@ -26,7 +26,6 @@ body {
   margin: 10rem 0;
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
 }
 .welcome__image {
   flex-basis: 40rem;
@@ -35,12 +34,18 @@ body {
 }
 .welcome__text-box {
   padding: 1rem 0;
+  position: relative;
 }
 .welcome__text-box__text {
   font-weight: 500;
   font-size: 1.8rem;
   color: var(--grey-normal);
-  margin-bottom: auto;
+  margin: 1.5rem 0;
+  padding-right: 14rem;
+}
+.welcome__text-box .btn {
+  position: absolute;
+  bottom: 1rem;
 }
 
 .heading-primary {
@@ -57,7 +62,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
 }
 .navbar__logo {
   width: 4rem;
@@ -66,13 +70,12 @@ body {
 .navbar__list {
   font-size: 1.6rem;
   display: flex;
-  border: 1px solid yellow;
+  gap: 2.2rem;
 }
 .navbar__item {
   font-weight: 700;
   text-decoration: none;
   color: var(--grey-normal);
-  margin-left: 10%;
 }
 
 .random-info {
@@ -87,7 +90,6 @@ body {
   font-size: 2rem;
   font-weight: 700;
   border-radius: 10%;
-  display: block;
   width: 100px;
 }
 
