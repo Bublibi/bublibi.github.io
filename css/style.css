@@ -22,6 +22,11 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+.header {
+  background-color: var(--primary-color);
+  padding: 3rem 20rem;
+}
+
 .welcome {
   margin: 10rem 0;
   display: flex;
@@ -53,9 +58,37 @@ body {
   color: var(--grey-light);
 }
 
-.header {
-  background-color: var(--primary-color);
-  padding: 3rem 20rem;
+.random-info {
+  padding: 12rem 30rem 20rem 30rem;
+}
+.random-info__title {
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: bolder;
+  margin-bottom: 5rem;
+  margin-top: -5rem;
+  color: var(--primary-color);
+}
+.random-info__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.random-info__item {
+  width: 180px;
+  height: 180px;
+}
+.random-info__item-text {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: rgb(82, 82, 85);
+}
+.random-info img {
+  width: 180px;
+  height: 180px;
+  border-radius: 1rem;
 }
 
 .navbar {
@@ -76,11 +109,6 @@ body {
   font-weight: 700;
   text-decoration: none;
   color: var(--grey-normal);
-}
-
-.random-info {
-  height: 100px;
-  overflow: hidden;
 }
 
 .btn {
