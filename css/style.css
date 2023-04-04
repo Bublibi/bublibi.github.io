@@ -26,15 +26,15 @@ body {
   margin: 10rem 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .welcome__image {
-  width: 40rem;
+  max-width: 33.4%;
   border-radius: 1rem;
   flex: 1 1 0;
 }
 .welcome__text-box {
   padding: 1rem 0;
-  position: relative;
 }
 .welcome__text-box__text {
   font-weight: 500;
@@ -44,8 +44,7 @@ body {
   padding-right: 14rem;
 }
 .welcome__text-box .btn {
-  position: absolute;
-  bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .heading-primary {
@@ -54,7 +53,8 @@ body {
 }
 
 .random-info {
-  padding: 12rem 30rem 20rem 30rem;
+  padding: 10% 15% 12% 15%;
+  margin-bottom: 21rem;
 }
 .random-info__title {
   text-align: center;
@@ -81,8 +81,8 @@ body {
   color: rgb(82, 82, 85);
 }
 .random-info img {
-  width: 18rem;
-  height: 18rem;
+  width: 11.3vw;
+  height: 11.3vw;
   border-radius: 1rem;
 }
 
@@ -127,6 +127,23 @@ body {
 
 .quotes {
   background-color: var(--grey-normal);
+}
+.quotes__quote {
+  padding: 7% 15% 7% 15%;
+  display: flex;
+  flex-direction: column;
+}
+.quotes__text {
+  font-size: 3.6rem;
+  color: var(--primary-color);
+  font-weight: 300;
+}
+.quotes__author {
+  text-align: right;
+  font-weight: 600;
+  font-size: 2.1rem;
+  margin-top: 2%;
+  padding-right: 4%;
 }
 
 /*# sourceMappingURL=style.css.map */
