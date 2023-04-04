@@ -17,24 +17,50 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media screen and (max-width: 580px) {
+  html {
+    font-size: 40%;
+  }
+}
 
 body {
   font-family: "Open Sans", sans-serif;
 }
 
 .welcome {
-  margin: 10rem 0;
+  margin: 8.3% 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (max-width: 1259px) {
+  .welcome {
+    flex-direction: column;
+    margin: 5rem 0;
+  }
+}
 .welcome__image {
-  max-width: 33.4%;
+  width: 40rem;
   border-radius: 1rem;
   flex: 1 1 0;
 }
+@media screen and (max-width: 1259px) {
+  .welcome__image {
+    margin-top: 8%;
+  }
+}
 .welcome__text-box {
   padding: 1rem 0;
+}
+@media screen and (max-width: 1259px) {
+  .welcome__text-box {
+    text-align: center;
+  }
 }
 .welcome__text-box__text {
   font-weight: 500;
@@ -42,6 +68,11 @@ body {
   color: var(--grey-normal);
   margin: 1.5rem 0;
   padding-right: 14rem;
+}
+@media screen and (max-width: 1259px) {
+  .welcome__text-box__text {
+    padding-right: 0;
+  }
 }
 .welcome__text-box .btn {
   margin-top: 2rem;
@@ -53,8 +84,7 @@ body {
 }
 
 .random-info {
-  padding: 10% 15% 12% 15%;
-  margin-bottom: 21rem;
+  padding: 10% 15% 8% 15%;
 }
 .random-info__title {
   text-align: center;
@@ -69,20 +99,30 @@ body {
   align-items: center;
   justify-content: space-between;
   list-style: none;
+  gap: 5rem;
+}
+@media screen and (max-width: 1259px) {
+  .random-info__list {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 .random-info__item {
-  width: 180px;
-  height: 180px;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: content-box;
 }
 .random-info__item-text {
   display: inline-block;
   font-weight: 500;
   font-size: 1.8rem;
   color: rgb(82, 82, 85);
+  margin-top: 1%;
 }
 .random-info img {
-  width: 11.3vw;
-  height: 11.3vw;
+  width: 20rem;
+  height: 20rem;
   border-radius: 1rem;
 }
 
@@ -116,10 +156,6 @@ body {
   color: var(--grey-normal);
 }
 
-.random-info {
-  height: 100px;
-}
-
 .btn {
   padding: 0.8rem 2.7rem;
   background-color: var(--secondary-color);
@@ -148,7 +184,7 @@ body {
   font-weight: 600;
   font-size: 2.1rem;
   margin-top: 2%;
-  padding-right: 6.5%;
+  padding-right: 6%;
 }
 
 .CTA {
